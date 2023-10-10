@@ -15,7 +15,7 @@ docker run -e "ACCEPT_EULA=Y" \
 # Pull github repo
 
 
-git clone https://github.com/HoGentTIN/p3ops-demo-ap
+git clone https://github.com/Pieter-Deconinck/p3ops-demo-app
 
 # Build .NET app
 dotnet restore p3ops-demo-app/src/Server/Server.csproj
