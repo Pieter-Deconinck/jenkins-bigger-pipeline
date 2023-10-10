@@ -34,7 +34,7 @@ docker run -dp 3000:3000                    \
   --network todo-app                        \
   -e MYSQL_HOST=mysql                       \
   -e MYSQL_USER=root                        \
-  -e MYSQL_PASSWORD=Pieter2023              \
+  -e MYSQL_PASSWORD="${1}"                  \
   -e MYSQL_DB=todos                         \
   --name todoapp                            \
   getting-started
