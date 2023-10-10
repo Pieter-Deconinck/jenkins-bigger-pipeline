@@ -15,7 +15,7 @@ fi
 
 cd tempdir || exit
 
-git clone https://github.com/docker/getting-started.git 
+git clone https://github.com/Pieter-Deconinck/getting-started.git 
 
 cd getting-started/app || exit
 
