@@ -12,4 +12,3 @@ this is a repo to test and improve my Jenkins skills
 
 Change database link in repo
 Make password a variable in the jenkinsfile secret
-Make repo private
