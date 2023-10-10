@@ -6,6 +6,7 @@ if docker ps -a | grep -q 'mysqltodo'; then
     echo "Removing existing mysqltodo container"
     docker stop mysqltodo
     docker rm mysqltodo
+    # docker volume rm mysqltodo # Use this if you want to remove the associated volumes
 fi
 
 # Check if docker network 'todo-app' exists

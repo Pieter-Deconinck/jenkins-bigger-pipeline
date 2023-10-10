@@ -11,6 +11,7 @@ if docker ps -a | grep -q 'todoapp'; then
     echo "Removing existing todoapp container"
     docker stop todoapp
     docker rm todoapp
+    # docker volume rm todoapp # Use this if you want to remove the associated volumes
 fi
 
 cd tempdir || exit
