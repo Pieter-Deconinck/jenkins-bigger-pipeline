@@ -21,5 +21,4 @@ git clone https://github.com/Pieter-Deconinck/p3ops-demo-app
 dotnet restore p3ops-demo-app/src/Server/Server.csproj
 
 # Run .NET app
-dotnet run watch --project p3ops-demo-app/src/Server/Server.csproj
-proj
+nohup dotnet watch run --project src/Server/Server.csproj &
