@@ -30,7 +30,6 @@ _EOF_
 
 docker build -t getting-started .
 docker run -dp 3000:3000                    \
-  -w /app -v ${PWD}:/app                    \
   --network todo-app                        \
   -e MYSQL_HOST=mysql                       \
   -e MYSQL_USER=root                        \
