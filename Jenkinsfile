@@ -28,7 +28,7 @@ node {
         }
     }
     stage('Build') {
-        build 'buildSqlContqiner'
+        build 'buildSqlContainer'
     }
     stage('Results') {
         build 'buildTodoContainer'
