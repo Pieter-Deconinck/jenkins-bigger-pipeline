@@ -29,6 +29,9 @@ RUN yarn install --production
 CMD ["node", "/app/src/index.js"]
 _EOF_
 
+# debug
+echo "${1}"
+
 docker build -t getting-started .
 docker run -dp 3000:3000                    \
   --network todo-app                        \
